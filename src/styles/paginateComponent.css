@@ -1,0 +1,50 @@
+.signos-paginado {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row !important;
+    width: 50%;
+    margin: auto;
+}
+
+.signo {
+    display: flex;
+}
+
+.contenedor-paginado-signo {
+    width: 33.3%;
+}
+
+.paginacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px
+}
+
+.paginacion li {
+    list-style: none;
+}
+
+.paginacion li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.previous, .next {
+    background-color: black;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.paginaActual {
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+
+.paginacion li:hover {
+    background-color: #dd6760;
+}
